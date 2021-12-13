@@ -11,6 +11,9 @@ public:
 	c_Rectangle operator+(c_Line line) {
 		return c_Rectangle(this->size + line.getLine(),this->size );
 	}
+	c_Rectangle operator-(c_Line line) {
+		return c_Rectangle(this->size - line.getLine(), this->size);
+	}
 
 };
 
