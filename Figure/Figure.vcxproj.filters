@@ -18,5 +18,25 @@
     <ClCompile Include="Figure.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="c_Line.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="c_Square.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="c_Rectangle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="c_Line.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="c_Square.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="c_Rectangle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
